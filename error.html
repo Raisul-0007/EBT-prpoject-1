@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="src/output.css">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font family -->
+
+</head>
+
+<body>
+    <div class="max-w-[1300px] m-auto">
+
+        <nav>
+            <div class="flex justify-between items-center py-8">
+                <div class="flex items-center  gap-10">
+                    <div>
+                       <a href="/team-project-1/home.html"><img src="../team-project-1/src/Image/logo.png" alt=""></a> 
+                    </div>
+                    <ul class="flex gap-10 text-[16px] font-semibold text-[#33354D] cursor-pointer">
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/service-a.html">Services</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/src/About/about.html">About</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/portfolio.html">Testimonials</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/blog.html">Blog</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/Contact.html">Contact</a> </li>
+                    </ul>
+                </div>
+
+                <div class="flex items-center space-x-6">
+                    <!-- Light / Dark Toggle -->
+                    <div class="flex space-x-2">
+                        <span class="text-[#565973] font-semibold">Light</span>
+                        <label for="check" class="relative bg-[#6C63FF] cursor-pointer w-[46px] h-[24px] rounded-full">
+                            <input type="checkbox" id="check" class="sr-only peer" />
+                            <span
+                                class="w-2/5 h-4/5 absolute bg-white rounded-full left-1 top-0.5 duration-300 peer-checked:bg-white peer-checked:left-6 transition-all">
+                            </span>
+                        </label>
+                        <span class="text-[#565973] font-semibold">Dark</span>
+                    </div>
+                    <!-- Sign in button -->
+                    <button
+                        class="flex justify-center items-center gap-2.5 text-[#6366F1] border-1 rounded-[4px] px-5 py-2.25 cursor-pointer"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#6366F1">
+                            <path
+                                d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z" />
+                        </svg> Sign in</button>
+                    <!-- Sign up button -->
+                    <button
+                        class="flex justify-center items-center gap-2.5 text-white bg-[#6366F1] border-1 rounded-[4px] px-5 py-2.25 cursor-pointer"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="http://www.w3.org/2000/svg" width="24px"
+                            fill="#ffffff">
+                            <path
+                                d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+                        </svg>Sign up</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="py-[50px]">
+            <div class="flex items-center">
+                <div class="">
+                    <h3 class="text-[80px] font-extrabold text-[#0B0F19] font-manrope">
+                        Error 404
+                    </h3>
+                    <p class="text-2xl text-[#565973] font-manrope w-[526px] py-[55px] leading-10">The page you are looking for was moved, removed or
+                        might never existed.</p>
+                        <button class="py-3 px-8 bg-[#6366F1] text-white flex rounded-xl cursor-pointer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.00293 22H9.00293H15.0029H19.0029C20.1059 22 21.0029 21.103 21.0029 20V11C21.0029 10.735 20.8979 10.48 20.7099 10.293L12.7099 2.29301C12.3189 1.90201 11.6869 1.90201 11.2959 2.29301L3.29593 10.293C3.10793 10.48 3.00293 10.735 3.00293 11V20C3.00293 21.103 3.89993 22 5.00293 22ZM10.0029 20V15H14.0029V20H10.0029ZM5.00293 11.414L12.0029 4.41401L19.0029 11.414L19.0039 20H16.0029V15C16.0029 13.897 15.1059 13 14.0029 13H10.0029C8.89993 13 8.00293 13.897 8.00293 15V20H5.00293V11.414Z"
+                                fill="white" />
+                        </svg>
+                        Go to homepage
+                    </button>
+
+
+                </div>
+                <div class="">
+                    <img src="src/assets/robot.png" alt="" class="w-[520px]">
+                </div>
+            </div>
+            <p class="text-[#9397AD] text-sm">
+                2021. All rights reserved. Silicon Template
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

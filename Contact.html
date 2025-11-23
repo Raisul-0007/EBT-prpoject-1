@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="bg-[#d846ef10]">
+            <Container class="max-w-1296">
+
+                <nav>
+            <div class="flex justify-between items-center py-8">
+                <div class="flex items-center  gap-10">
+                    <div>
+                       <a href="/team-project-1/home.html"><img src="../team-project-1/src/Image/logo.png" alt=""></a> 
+                    </div>
+                    <ul class="flex gap-10 text-[16px] font-semibold text-[#33354D] cursor-pointer">
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/service-a.html">Services</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/src/About/about.html">About</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/portfolio.html">Testimonials</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/blog.html">Blog</a> </li>
+                        <li class="hover:text-[#6C63FF]"> <a href="/team-project-1/Contact.html">Contact</a> </li>
+                    </ul>
+                </div>
+
+                <div class="flex items-center space-x-6">
+                    <!-- Light / Dark Toggle -->
+                    <div class="flex space-x-2">
+                        <span class="text-[#565973] font-semibold">Light</span>
+                        <label for="check" class="relative bg-[#6C63FF] cursor-pointer w-[46px] h-[24px] rounded-full">
+                            <input type="checkbox" id="check" class="sr-only peer" />
+                            <span
+                                class="w-2/5 h-4/5 absolute bg-white rounded-full left-1 top-0.5 duration-300 peer-checked:bg-white peer-checked:left-6 transition-all">
+                            </span>
+                        </label>
+                        <span class="text-[#565973] font-semibold">Dark</span>
+                    </div>
+                    <!-- Sign in button -->
+                    <button
+                        class="flex justify-center items-center gap-2.5 text-[#6366F1] border-1 rounded-[4px] px-5 py-2.25 cursor-pointer"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#6366F1">
+                            <path
+                                d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z" />
+                        </svg> Sign in</button>
+                    <!-- Sign up button -->
+                    <button
+                        class="flex justify-center items-center gap-2.5 text-white bg-[#6366F1] border-1 rounded-[4px] px-5 py-2.25 cursor-pointer"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="http://www.w3.org/2000/svg" width="24px"
+                            fill="#ffffff">
+                            <path
+                                d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+                        </svg>Sign up</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex items-center text-[14px] py-[40px]">
+        <p class="text-gray-600">Homepage</p>
+        <i class="fa-solid fa-chevron-right text-gray-600"></i>
+        <p class="text-[#6366F1]">Contact</p>
+        </div>
+        <div class="flex justify-between">
+            <div class="pb-[50px]">
+                <h3 class="font-bold text-[25px] pt-[50px]">Want to work with us?</h3>
+                <h1 class="text-[#6366F1] text-[70px] pb-[50px]">Let's talk!</h1>
+                <div class="">
+                    <h4 class="text-[15px] text-gray-800 py-[20px]">email@example.com</h4>
+                    <h4 class="text-[15px] text-gray-800">+1 406 555-0120</h4>
+                </div>
+            </div>
+            <div class="">
+                <form action="">
+                   <div class="flex gap-[20px]">
+                     <div class="">
+                    <h3 class="py-3">Full name</h3>
+                    <input class="bg-[#FFFFFF] py-[5px]" type="text">
+                </div>
+                <div class="">
+                    <h3 class="py-3">Email</h3>
+                    <input class="bg-[#FFFFFF] py-[5px]" type="text">
+                </div>
+                   </div>
+                <div class="pt-[50px]">
+                    <h3 class="py-3">Message</h3>
+                    <input class="bg-[#FFFFFF] py-[40px] px-[90px]" type="text">
+                </div>
+                </form>
+                <div class="mt-[40px]">
+                <a href="#" class=" py-2 px-5 text-[#FFFFFF] bg-[#6366F1] cursour-pointer">Contact Us</a>
+                </div>
+            </div>
+
+        </div>
+    </Container>
+    </div>
+</body>
+</html>
